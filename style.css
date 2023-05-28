@@ -1,0 +1,226 @@
+.n1 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nombre nombre nombre nombre nombre"
+      "container container contenido contenido contenido"
+      "container container contenido contenido contenido"
+      "container container contenido contenido contenido"
+      "footer footer footer footer footer";
+  }
+  
+  .nombre { grid-area: nombre; }
+  
+  .contenido { grid-area: contenido; }
+  
+  .footer { grid-area: footer; }
+  
+  .container { grid-area: container; }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+    font-family: 'Manjari', sans-serif;
+    font-size: 27px;
+}
+
+.nombre {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px;
+    padding-right: 30%;
+    background-color: #9ce0db;
+    color:black;
+    margin: 20px white solid;
+    border: white solid 20px;
+}
+
+.nombre div{
+    text-align: center;
+}
+.nombre .fotito img{
+    width: 120px;
+}
+
+.container .sidebar{
+    background-color: #338b85;
+    padding: 20px;
+    margin: 20px;
+    border: 1px;
+
+}
+/*perfil*/
+.container >.sidebar > .perfil{
+    padding: 20px;
+    margin: 20px;
+    border: 1px;
+
+}
+.container >.sidebar > .perfil>h3{
+    color:#9ce0db;
+}
+
+.container >.sidebar >.perfil>.dentroperf{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px
+}
+.container >.sidebar >.perfil>.dentroperf>p{
+    color: white;
+}
+/*contacto*/
+.container >.sidebar >.contacto{
+    padding: 20px;
+    margin: 20px;
+    border: 1px 
+}
+.container >.sidebar >.contacto> h3{
+    color: #9ce0db;
+}
+
+.container >.sidebar >.contacto>.dentrocont{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px
+}
+.container >.sidebar >.contacto>.dentrocont>h4{
+    color: #9ce0db;
+}
+.container >.sidebar >.contacto>.dentrocont> p{
+    color: white;
+}
+.contacto{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black
+}
+.contenido{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+/*experiencia*/
+.contenido> .exp {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido> .exp>h3{
+    color:#005954
+
+}
+.contenido> .exp> .dentroexp{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido> .exp> .dentroexp>h4{
+    color: #005954;
+}
+.contenido> .exp> .dentroexp>p{
+    color:black;
+}
+/*estudio*/
+.contenido> .est {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido>.est> h3{
+    color:#005954
+}
+.contenido >.est> .dentroest{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido >.est> .dentroest>h4{
+    color: #005954;
+}
+.contenido >.est> .dentroest>p{
+    color:black;
+}
+
+/*idioma*/
+.contenido> .idi {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido> .idi>h3{
+    color: #005954;
+}
+.contenido >.idi> .dentroidi{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido >.idi> .dentroidi>p{
+    color: black;
+}
+/*habilidades*/
+.contenido> .hab {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido> .hab>h3{
+    color: #005954;
+}
+.contenido >.hab> .dentrohab{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido >.hab> .dentrohab>p{
+    color: black;
+}
+.contenido>.hab>.dentrohab{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+/*hobbies*/
+.contenido>.hob{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido>.hob>h3{
+    color: #005954;
+}
+.contenido>.hob>.dentrohob{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.contenido>.hob>.dentrohob>p{
+    color: black;
+}
+/*footer*/
+.footer{
+    background-color: #338b85;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    grid-column: 1/6;
+}
+.pyth {
+    width: 50px;
+}
+.htmll{
+    width: 50px;
+}
+.csss{
+    width: 50px;
+}
+.oracle{
+    width: 50px;
+}
