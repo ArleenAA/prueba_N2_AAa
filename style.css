@@ -211,6 +211,10 @@ body{
     margin: 20px;
     border: 1px solid black;
 }
+.link-custom {
+    color: white
+  }
+  
 .pyth {
     width: 50px;
 }
