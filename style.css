@@ -1,8 +1,8 @@
 .n1 {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 0.2fr;
+    gap: 0px 0px; 
+    grid-auto-flow: column;
     grid-template-areas:
       "nombre nombre nombre nombre nombre"
       "container container contenido contenido contenido"
@@ -19,6 +19,47 @@
   
   .container { grid-area: container; }
   
+/* Estilos para pantalla igual o mayor a 960px */
+@media (min-width: 960px) {
+    .nombre1 {
+      padding-right: 30%;
+    }
+  
+    .sidebar {
+      margin: 20px;
+    }
+}
+/* Estilos para pantalla entre 960px y 480px */
+@media (max-width: 960px) and (min-width: 480px) {
+    .nombre1 {
+      padding-right: 20%;
+    }
+  
+    .sidebar {
+      margin: 10px;
+    }
+  
+    .perfil,
+    .contacto {
+      margin: 10px;
+    }
+}
+/* Estilos para pantalla inferior a 480px */
+@media (max-width: 480px) {
+    .nombre1 {
+      padding-right: 10%;
+    }
+  
+    .sidebar {
+      margin: 5px;
+    }
+  
+    .perfil,
+    .contacto {
+      margin: 5px;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -51,6 +92,7 @@ body{
 .container>.container1> .sidebar{
     background-color: #338b85;
     padding: 20px;
+    padding-bottom: 845px;
     margin: 20px;
     border: 1px;
 
@@ -213,8 +255,7 @@ body{
 }
 .link-custom {
     color: white
-  }
-  
+}
 .pyth {
     width: 50px;
 }
