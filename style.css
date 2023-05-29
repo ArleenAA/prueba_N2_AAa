@@ -29,7 +29,7 @@ body{
     font-size: 27px;
 }
 
-.nombre {
+.nombre1 {
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -41,14 +41,14 @@ body{
     border: white solid 20px;
 }
 
-.nombre div{
+.nombre1 div{
     text-align: center;
 }
-.nombre .fotito img{
+.nombre1 .fotito img{
     width: 120px;
 }
 
-.container .sidebar{
+.container>.container1> .sidebar{
     background-color: #338b85;
     padding: 20px;
     margin: 20px;
@@ -56,43 +56,43 @@ body{
 
 }
 /*perfil*/
-.container >.sidebar > .perfil{
+.container>.container1 >.sidebar > .perfil{
     padding: 20px;
     margin: 20px;
     border: 1px;
 
 }
-.container >.sidebar > .perfil>h3{
+.container>.container1 >.sidebar > .perfil>h3{
     color:#9ce0db;
 }
 
-.container >.sidebar >.perfil>.dentroperf{
+.container>.container1 >.sidebar >.perfil>.dentroperf{
     padding: 0;
     margin-top: 20px;
     border: 1px
 }
-.container >.sidebar >.perfil>.dentroperf>p{
+.container>.container1 >.sidebar >.perfil>.dentroperf>p{
     color: white;
 }
 /*contacto*/
-.container >.sidebar >.contacto{
+.container>.container1 >.sidebar >.contacto{
     padding: 20px;
     margin: 20px;
     border: 1px 
 }
-.container >.sidebar >.contacto> h3{
+.container>.container1 >.sidebar >.contacto> h3{
     color: #9ce0db;
 }
 
-.container >.sidebar >.contacto>.dentrocont{
+.container>.container1 >.sidebar >.contacto>.dentrocont{
     padding: 0;
     margin-top: 20px;
     border: 1px
 }
-.container >.sidebar >.contacto>.dentrocont>h4{
+.container>.container1 >.sidebar >.contacto>.dentrocont>h4{
     color: #9ce0db;
 }
-.container >.sidebar >.contacto>.dentrocont> p{
+.container>.container1 >.sidebar >.contacto>.dentrocont> p{
     color: white;
 }
 .contacto{
@@ -107,110 +107,109 @@ body{
     border: 1px solid black;
 }
 /*experiencia*/
-.contenido> .exp {
+.contenido>.contenido1> .exp {
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido> .exp>h3{
+.contenido>.contenido1> .exp>h3{
     color:#005954
 
 }
-.contenido> .exp> .dentroexp{
+.contenido>.contenido1>.exp> .dentroexp{
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido> .exp> .dentroexp>h4{
+.contenido>.contenido1> .exp> .dentroexp>h4{
     color: #005954;
 }
-.contenido> .exp> .dentroexp>p{
+.contenido>.contenido1> .exp> .dentroexp>p{
     color:black;
 }
 /*estudio*/
-.contenido> .est {
+.contenido>.contenido1> .est {
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido>.est> h3{
+.contenido>.contenido1>.est> h3{
     color:#005954
 }
-.contenido >.est> .dentroest{
+.contenido>.contenido1 >.est> .dentroest{
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido >.est> .dentroest>h4{
+.contenido>.contenido1 >.est> .dentroest>h4{
     color: #005954;
 }
-.contenido >.est> .dentroest>p{
+.contenido>.contenido1 >.est> .dentroest>p{
     color:black;
 }
 
 /*idioma*/
-.contenido> .idi {
+.contenido>.contenido1> .idi {
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido> .idi>h3{
+.contenido>.contenido1> .idi>h3{
     color: #005954;
 }
-.contenido >.idi> .dentroidi{
+.contenido>.contenido1 >.idi> .dentroidi{
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido >.idi> .dentroidi>p{
+.contenido>.contenido1 >.idi> .dentroidi>p{
     color: black;
 }
 /*habilidades*/
-.contenido> .hab {
+.contenido>.contenido1> .hab {
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido> .hab>h3{
+.contenido>.contenido1> .hab>h3{
     color: #005954;
 }
-.contenido >.hab> .dentrohab{
+.contenido>.contenido1 >.hab> .dentrohab{
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido >.hab> .dentrohab>p{
+.contenido>.contenido1 >.hab> .dentrohab>p{
     color: black;
 }
-.contenido>.hab>.dentrohab{
+.contenido>.contenido1>.hab>.dentrohab{
     display: flex;
     justify-content:space-between;
     align-items:center;
 }
 /*hobbies*/
-.contenido>.hob{
+.contenido>.contenido1>.hob{
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido>.hob>h3{
+.contenido>.contenido1>.hob>h3{
     color: #005954;
 }
-.contenido>.hob>.dentrohob{
+.contenido>.contenido1>.hob>.dentrohob{
     padding: 0;
     margin-top: 20px;
     border: 1px;
 }
-.contenido>.hob>.dentrohob>p{
+.contenido>.contenido1>.hob>.dentrohob>p{
     color: black;
 }
 /*footer*/
-.footer{
+.footer>.footer1{
     background-color: #338b85;
     padding: 20px;
     margin: 20px;
     border: 1px solid black;
-    grid-column: 1/6;
 }
 .pyth {
     width: 50px;
